@@ -10,6 +10,8 @@ sudo cp ./Canon_MF3110.icns /Library/Printers/Canon/Icon/
 
 sudo cp ./Canon_LB_MF3110.ppd.gz /Library/Printers/PPDs/Contents/Resources/
 
+lpstat -p
+
 # Ask for the printer name
 
 echo "Please enter the printer name (Canon MF3110):"
